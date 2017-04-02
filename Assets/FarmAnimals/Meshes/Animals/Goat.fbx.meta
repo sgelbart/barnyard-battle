@@ -1,0 +1,133 @@
+fileFormatVersion: 2
+guid: 5e376940a45a40645a70cc1eb920a43a
+timeCreated: 1430546288
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Armature
+    100002: BackFoot_L
+    100004: BackFoot_R
+    100006: BackLeg1_L
+    100008: BackLeg1_R
+    100010: BackLeg2_L
+    100012: BackLeg2_R
+    100014: BackLeg3_L
+    100016: BackLeg3_R
+    100018: FrontFoot_L
+    100020: FrontFoot_R
+    100022: FrontLeg1_L
+    100024: FrontLeg1_R
+    100026: FrontLeg2_L
+    100028: FrontLeg2_R
+    100030: FrontLeg3_L
+    100032: FrontLeg3_R
+    100034: //RootNode
+    100036: Goat
+    100038: Head
+    100040: Master
+    100042: Neck
+    100044: Spine1
+    100046: Spine2
+    100048: Spine3
+    100050: Tail
+    400000: Armature
+    400002: BackFoot_L
+    400004: BackFoot_R
+    400006: BackLeg1_L
+    400008: BackLeg1_R
+    400010: BackLeg2_L
+    400012: BackLeg2_R
+    400014: BackLeg3_L
+    400016: BackLeg3_R
+    400018: FrontFoot_L
+    400020: FrontFoot_R
+    400022: FrontLeg1_L
+    400024: FrontLeg1_R
+    400026: FrontLeg2_L
+    400028: FrontLeg2_R
+    400030: FrontLeg3_L
+    400032: FrontLeg3_R
+    400034: //RootNode
+    400036: Goat
+    400038: Head
+    400040: Master
+    400042: Neck
+    400044: Spine1
+    400046: Spine2
+    400048: Spine3
+    400050: Tail
+    4300000: Goat
+    7400000: Default Take
+    7400002: Death
+    7400004: Idle
+    7400006: Idle2
+    7400008: Idle3
+    7400010: Idle_Eat
+    7400012: Idle_Sit
+    7400014: Walk
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Goat
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

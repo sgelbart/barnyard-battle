@@ -1,0 +1,147 @@
+fileFormatVersion: 2
+guid: 41c1d249c9f6f6843b0db288ae26b2f3
+timeCreated: 1429419041
+licenseType: Store
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: BackLeg1_L
+    100006: BackLeg1_R
+    100008: BackLeg2_L
+    100010: BackLeg2_R
+    100012: BackLeg3_L
+    100014: BackLeg3_R
+    100016: Foot_L
+    100018: Foot_R
+    100020: FrontLeg1_L
+    100022: FrontLeg1_R
+    100024: FrontLeg2_L
+    100026: FrontLeg2_R
+    100028: FrontLeg3_L
+    100030: FrontLeg3_L_001
+    100032: FrontLeg3_R
+    100034: FrontLeg3_R_001
+    100036: Head
+    100038: Master
+    100040: Neck
+    100042: Pig
+    100044: Spine1
+    100046: Spine2
+    100048: Spine3
+    100050: Tail
+    100052: BackFoot_L
+    100054: BackFoot_R
+    100056: FrontFoot_L
+    100058: FrontFoot_R
+    400000: //RootNode
+    400002: Armature
+    400004: BackLeg1_L
+    400006: BackLeg1_R
+    400008: BackLeg2_L
+    400010: BackLeg2_R
+    400012: BackLeg3_L
+    400014: BackLeg3_R
+    400016: Foot_L
+    400018: Foot_R
+    400020: FrontLeg1_L
+    400022: FrontLeg1_R
+    400024: FrontLeg2_L
+    400026: FrontLeg2_R
+    400028: FrontLeg3_L
+    400030: FrontLeg3_L_001
+    400032: FrontLeg3_R
+    400034: FrontLeg3_R_001
+    400036: Head
+    400038: Master
+    400040: Neck
+    400042: Pig
+    400044: Spine1
+    400046: Spine2
+    400048: Spine3
+    400050: Tail
+    400052: BackFoot_L
+    400054: BackFoot_R
+    400056: FrontFoot_L
+    400058: FrontFoot_R
+    2300000: //RootNode
+    2300002: Pig
+    3300000: //RootNode
+    3300002: Pig
+    4300000: Pig
+    7400000: Default Take
+    7400002: Death
+    7400004: Idle
+    7400006: Idle2
+    7400008: Idle3
+    7400010: Idle4
+    7400012: Walk
+    7400014: Idle_Eat
+    7400016: Idle_Sit
+    7400018: Walk_001
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Pig
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

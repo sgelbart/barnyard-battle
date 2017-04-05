@@ -405,8 +405,6 @@ function Update() {
 			}
 		}
 	}
-	Debug.Log("before is grounded ");
-	Debug.Log(transform.position);
 	// ANIMATION sector
 	
 	// Set rotation to the move direction
@@ -437,8 +435,6 @@ function Update() {
 			SendMessage("DidLand", SendMessageOptions.DontRequireReceiver);
 		}
 	}
-		Debug.Log("end update: ");
-	Debug.Log(transform.position);
 }
 
 function OnControllerColliderHit (hit : ControllerColliderHit )

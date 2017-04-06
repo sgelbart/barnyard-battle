@@ -20,12 +20,12 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0.22604889, g: 0.24073292, b: 0.27205884, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
   m_AmbientMode: 3
-  m_SkyboxMaterial: {fileID: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 7d1430089afb5854892670b854d1d684, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -33,11 +33,11 @@ RenderSettings:
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
-  m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionBounces: 2
+  m_ReflectionIntensity: 0.216
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_Sun: {fileID: 1379101804}
+  m_IndirectSpecularColor: {r: 0.16773179, g: 0.31292084, b: 0.43668073, a: 0.216}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -71,7 +71,8 @@ LightmapSettings:
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 1024
     m_ReflectionCompression: 2
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000001, guid: 1152c1eec732648088728efa6c704842,
+    type: 2}
   m_RuntimeCPUUsage: 25
 --- !u!196 &4
 NavMeshSettings:
@@ -10159,7 +10160,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400238, guid: 5997f2d30272974419e3fb1201a3d453, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 371406450}
-  m_LocalRotation: {x: -0.2758863, y: -0.6510659, z: -0.6510659, w: 0.27588618}
+  m_LocalRotation: {x: -0.27588633, y: -0.65106595, z: -0.65106595, w: 0.2758862}
   m_LocalPosition: {x: 14.240575, y: -0.15999998, z: -2.4927227}
   m_LocalScale: {x: 149.99995, y: 149.99997, z: 149.99997}
   m_Children: []
@@ -16439,7 +16440,7 @@ Transform:
   m_PrefabParentObject: {fileID: 400236, guid: 5997f2d30272974419e3fb1201a3d453, type: 3}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 568999278}
-  m_LocalRotation: {x: -0.27588633, y: -0.65106595, z: -0.65106595, w: 0.2758862}
+  m_LocalRotation: {x: -0.2758863, y: -0.6510659, z: -0.6510659, w: 0.27588618}
   m_LocalPosition: {x: 14.240575, y: -0.15999998, z: -2.4927227}
   m_LocalScale: {x: 150.00005, y: 150.00003, z: 150.00003}
   m_Children: []

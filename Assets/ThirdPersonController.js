@@ -348,7 +348,7 @@ function Update() {
 		}
 		
 		if (IsJumping ()){
-		this.transform.localPosition +=  (GameObject.Find ("SideJumpDummy").transform.position-this.transform.position) *sideMove   ;
+		//this.transform.localPosition +=  (GameObject.Find ("SideJumpDummy").transform.position-this.transform.position) *sideMove   ;
 		 
 		 }
 		

@@ -10,6 +10,8 @@ public class CharacterSelector : MonoBehaviour {
 
 	private void Start()
 	{
+		PathFollower.farmerDelay = true;
+
 		//sets value that chooses the char to the one you picked earlier
 		index = PlayerPrefs.GetInt ("CharacterSelected");
 

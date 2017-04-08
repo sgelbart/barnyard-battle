@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class ProjectileShooter : MonoBehaviour {
 
 	//just for shooting purposes
-	public /*static*/ GameObject player;
+	public GameObject player;
+	public static int carrotCount;
 
 	GameObject prefab;
 
@@ -22,7 +23,10 @@ public class ProjectileShooter : MonoBehaviour {
 		if (SceneManager.GetActiveScene().name != "character_selection")
 		{
 			if (Input.GetMouseButtonDown (0)) {
+				if (carrotCount > 0)
+				{
 				Throw ();
+				}
 			}
 		}
 		 

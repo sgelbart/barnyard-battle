@@ -7,7 +7,7 @@ public class PathFollower : MonoBehaviour {
 
 	//variables up here
 	public Transform[] path; 			//holds path
-	public static float speed = 5.0f;	//holds speed of obj
+	public static float speed = 2.0f;	//holds speed of obj
 	public float reachDist = 1.0f;
 	public int currentPoint = 0;		//tells index within path
 	public int[] leftTurns;

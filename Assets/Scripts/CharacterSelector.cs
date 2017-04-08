@@ -33,7 +33,7 @@ public class CharacterSelector : MonoBehaviour {
 		{
 			characterList[index].SetActive(true);
 			//sets player var in camera controller
-			//CameraController.player = characterList[index];
+			CameraController.player = characterList[index];
 			//sets player in proj shooter
 			//ProjectileShooter.player = characterList[index];
 		}

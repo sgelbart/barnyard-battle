@@ -15,7 +15,6 @@ public class ShootingController : MonoBehaviour {
 	public AnimationClip mad;
 	public AnimationClip walking;
 	public AnimationClip die;
-	public AnimationClip running;
 
 	public float startHealth;
 	public float currentHealth;
@@ -42,9 +41,7 @@ public class ShootingController : MonoBehaviour {
 			timerActive = false;
 			if (healthPercent > 0)
 			{
-				running.legacy = true;
-				GetComponent<Animation> ().Play ("run");
-				PathFollower.speed = 10.0f;
+				PathFollower.speed = 2.0f;
 			}
 			targetTime = 2.0f;
 		}

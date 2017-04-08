@@ -262,7 +262,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalRotation.z
@@ -270,7 +270,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_RootOrder
@@ -284,7 +284,12 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
   m_IsPrefabParent: 0
 --- !u!1 &1006628107 stripped
@@ -302,6 +307,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50bce6ea094d84e469391e7b3b3720be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bubbleWidth: 200
+  bubbleHeight: 100
+  offsetX: 33
+  offsetY: 150
+  mat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  guiSkin: {fileID: 11400000, guid: 82969da2b22202c47b97f022e72293e5, type: 2}
 --- !u!111 &1006628111
 Animation:
   m_ObjectHideFlags: 0
@@ -310,9 +321,9 @@ Animation:
   m_GameObject: {fileID: 1006628107}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: a748dee4242461842b2f083a18157d1f, type: 3}
+  m_Animation: {fileID: 7400000, guid: 739a527acf30e794999333672821df88, type: 3}
   m_Animations:
-  - {fileID: 7400000, guid: a748dee4242461842b2f083a18157d1f, type: 3}
+  - {fileID: 7400000, guid: 739a527acf30e794999333672821df88, type: 3}
   m_WrapMode: 0
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0

@@ -29,3 +29,8 @@ obj/
 .Trashes
 ehthumbs.db
 Thumbs.db
+*.exe
+
+Barnyard-battle-build2\.0_Data/
+
+Barnyard-battle-build_Data/

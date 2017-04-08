@@ -25,7 +25,8 @@ public class ProjectileShooter : MonoBehaviour {
 			if (Input.GetMouseButtonDown (0)) {
 				if (carrotCount > 0)
 				{
-				Throw ();
+					Throw ();
+					carrotCount--;
 				}
 			}
 		}

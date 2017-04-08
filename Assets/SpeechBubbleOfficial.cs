@@ -29,9 +29,13 @@ public class SpeechBubbleOfficial : MonoBehaviour
 	//a guiSkin, to render the round part of the speech balloon  
 	public GUISkin guiSkin;  
 
+	public AnimationClip idle;
+
 	//use this for early initialization  
 	void Awake ()  
 	{  
+		idle.legacy = true;
+
 		//get this game object's transform  
 		goTransform = this.GetComponent<Transform>();  
 	}  

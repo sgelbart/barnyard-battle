@@ -24,8 +24,17 @@ public class PathFollower : MonoBehaviour {
 	public float delayTime;
 	//public float currentDelayTime;
 
+	public Image infoBackg;
+	public Text infoText;
+
+	public static bool farmerDelay;
+	public float farmDelayTime;
+
 	void Start ()
 	{
+		farmerDelay = true;
+		infoBackg.enabled = false;
+		infoText.text = " ";
 		walk.legacy = true;
 		GetComponent <Animation> ().Play ("walk");
 		loseText.text = " ";
@@ -34,20 +43,28 @@ public class PathFollower : MonoBehaviour {
 	}
 
 	void Update () {
-		float dist = Vector3.Distance (path [currentPoint].position, transform.position);
 
-		transform.position = Vector3.MoveTowards (transform.position, path [currentPoint].position, Time.deltaTime*speed);
-
-		if (dist <= reachDist)
+		if (farmerDelay == true)
 		{
-			currentPoint++;
-			if (leftTurns.Contains(currentPoint))
-			{
-				transform.Rotate(0,-90,0);
-			}
-			if (rightTurns.Contains(currentPoint))
-			{
-				transform.Rotate (0,90,0);
+			farmDelayTime = farmDelayTime - Time.deltaTime;
+		}
+
+		if (farmDelayTime <= 0.0f) 
+		{
+			farmerDelay = false;
+
+			float dist = Vector3.Distance (path [currentPoint].position, transform.position);
+
+			transform.position = Vector3.MoveTowards (transform.position, path [currentPoint].position, Time.deltaTime * speed);
+
+			if (dist <= reachDist) {
+				currentPoint++;
+				if (leftTurns.Contains (currentPoint)) {
+					transform.Rotate (0, -90, 0);
+				}
+				if (rightTurns.Contains (currentPoint)) {
+					transform.Rotate (0, 90, 0);
+				}
 			}
 		}
 
@@ -65,6 +82,8 @@ public class PathFollower : MonoBehaviour {
 		{
 			if (currentPoint == 4) 
 			{
+				infoBackg.enabled = true;
+				infoText.text = "Wait to return to start.";
 				loseBackg.enabled = true;
 				loseText.text = "Poor Bessie!";
 				sceneDelay = true;

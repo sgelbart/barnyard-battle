@@ -24,9 +24,18 @@ public class ShootingController : MonoBehaviour {
 
 	public static bool winDelay;
 	public float delayTime;
+	public Image winBackg;
+	public Text winText;
+	//public Button playAgain;
+	public Text infoText;
+	public Image infoBackg;
 
 	public void Start ()
 	{
+		infoBackg.enabled = false;
+		infoText.text = " ";
+		winBackg.enabled = false;
+		winText.text = " ";
 		winDelay = false;
 		isDead = false;
 		healthPercent = 100;
@@ -88,8 +97,11 @@ public class ShootingController : MonoBehaviour {
 				die.legacy = true;
 				GetComponent<Animation> ().Play ("Death2");
 			}
+
+			ShowVictory ();
 			isDead = true;
 			winDelay = true;
+
 		}
 
 		//makes him stop moving
@@ -107,5 +119,18 @@ public class ShootingController : MonoBehaviour {
 		{
 			timerActive = true;
 		}
+	}
+
+	void ShowVictory ()
+	{
+		infoBackg.enabled = true;
+		infoText.text = "Wait to return to start.";
+		winBackg.enabled = true;
+		winText.text = "Bessie is saved!";
+	}
+
+	public void PlayAgain()
+	{
+		SceneManager.LoadScene ("character_selection");
 	}
 }

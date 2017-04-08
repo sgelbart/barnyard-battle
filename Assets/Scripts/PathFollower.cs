@@ -22,7 +22,6 @@ public class PathFollower : MonoBehaviour {
 	public Text loseText;
 	public static bool sceneDelay;
 	public float delayTime;
-	//public float currentDelayTime;
 
 	public Image infoBackg;
 	public Text infoText;
@@ -76,7 +75,7 @@ public class PathFollower : MonoBehaviour {
 
 		if (delayTime <= 0.0f)
 		{
-			SceneManager.LoadScene ("character_selection");
+			SceneManager.LoadScene ("death");
 		}
 
 		if (sceneDelay == false)
@@ -84,7 +83,7 @@ public class PathFollower : MonoBehaviour {
 			if (currentPoint == 4) 
 			{
 				infoBackg.enabled = true;
-				infoText.text = "Wait to return to start.";
+				infoText.text = "Please wait.";
 				loseBackg.enabled = true;
 				loseText.text = "Poor Bessie!";
 				sceneDelay = true;

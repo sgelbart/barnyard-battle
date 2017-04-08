@@ -11,7 +11,7 @@ public class CharacterSelector : MonoBehaviour {
 	private void Start()
 	{
 		PathFollower.speed = 2.0f;
-		ShootingController.currentHealth = 10;
+		ShootingController.currentHealth = 5.0f;
 		PathFollower.farmerDelay = true;
 		PathFollower.farmDelayTime = 5.0f;
 

@@ -31,8 +31,8 @@ public class ShootingController : MonoBehaviour {
 
 	public void Start ()
 	{
-		startHealth = 10.0f;
-		currentHealth = 10.0f;
+		startHealth = 5.0f;
+		currentHealth = 5.0f;
 		infoBackg.enabled = false;
 		infoText.text = " ";
 		winBackg.enabled = false;

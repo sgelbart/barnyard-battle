@@ -80,7 +80,7 @@ public class SpeechBubbleOfficial : MonoBehaviour
 		GUI.Label(new Rect(0,0,200,100),"",guiSkin.customStyles[0]);  
 
 		//Render the text  
-		GUI.Label(new Rect(0,0,185,120),"Howdy! Get the carrots and stop the farmer from killing our beloved cow, Bessie! Yee haw!",guiSkin.label);  
+		GUI.Label(new Rect(0,0,185,120),"Howdy! Pick up the carrots and throw them to stop the farmer from killing our beloved cow, Bessie! If you can't knock him out before he kills her, she'll be gone! Yee haw!",guiSkin.label);  
 
 
 

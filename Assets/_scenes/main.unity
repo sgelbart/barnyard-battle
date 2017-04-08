@@ -55903,11 +55903,12 @@ MonoBehaviour:
   reachDist: 1
   currentPoint: 0
   leftTurns: 03000000
-  rightTurns: 05000000
+  rightTurns: 04000000
   idle: {fileID: 7400040, guid: f2c5112640b7ef44689672dec0aca705, type: 3}
   walk: {fileID: 7400014, guid: f2c5112640b7ef44689672dec0aca705, type: 3}
   loseBackg: {fileID: 1680246041}
   loseText: {fileID: 2103077924}
+  delayTime: 5
 --- !u!4 &1968119091 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400136, guid: e7207fce27b934849b3fb1c8ae1a6095, type: 3}
@@ -59331,6 +59332,18 @@ Prefab:
     - target: {fileID: 11156674, guid: 2991da213a5ffc143b5a0efc8e8182a0, type: 2}
       propertyPath: m_PlayAutomatically
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 437464, guid: 2991da213a5ffc143b5a0efc8e8182a0, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 437464, guid: 2991da213a5ffc143b5a0efc8e8182a0, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 437464, guid: 2991da213a5ffc143b5a0efc8e8182a0, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 14317888, guid: 2991da213a5ffc143b5a0efc8e8182a0, type: 2}

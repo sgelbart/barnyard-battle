@@ -8,13 +8,19 @@ public class PickUp : MonoBehaviour {
 	public Text countText;
 	public float targetTime = 60.0f;
 
-	private int count;
+	public static int count;
 
 	void Start ()
 	{
 		count = 0;
 		SetCountText ();
 	}
+
+	void Update ()
+	{
+		SetCountText ();
+	}
+
 	void OnTriggerEnter(Collider other) 
 	{
 		if (other.gameObject.CompareTag ("Pick Up")) 
@@ -35,6 +41,6 @@ public class PickUp : MonoBehaviour {
 
 	void SetCountText ()
 	{
-		countText.text = "Count: " + count.ToString () + "/22";
+		countText.text = "Count: " + count.ToString () + "/34";
 	}
 }

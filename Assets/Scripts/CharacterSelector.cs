@@ -13,7 +13,7 @@ public class CharacterSelector : MonoBehaviour {
 		PathFollower.speed = 2.0f;
 		ShootingController.currentHealth = 10;
 		PathFollower.farmerDelay = true;
-		PathFollower.farmDelayTime = 2.0f;
+		PathFollower.farmDelayTime = 5.0f;
 
 		//sets value that chooses the char to the one you picked earlier
 		index = PlayerPrefs.GetInt ("CharacterSelected");

@@ -32,7 +32,7 @@ public class PathFollower : MonoBehaviour {
 
 	void Start ()
 	{
-		farmDelayTime = 2.0f;
+		farmDelayTime = 5.0f;
 		farmerDelay = true;
 		infoBackg.enabled = false;
 		infoText.text = " ";

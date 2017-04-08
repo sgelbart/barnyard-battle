@@ -156,7 +156,7 @@ Prefab:
       objectReference: {fileID: 7400004, guid: 8218cf4152f43cc42a5b2d8757efff59, type: 3}
     - target: {fileID: 11156674, guid: 2991da213a5ffc143b5a0efc8e8182a0, type: 2}
       propertyPath: m_PlayAutomatically
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2991da213a5ffc143b5a0efc8e8182a0, type: 2}

@@ -16,8 +16,8 @@ public class ShootingController : MonoBehaviour {
 	public AnimationClip walking;
 	public AnimationClip die;
 
-	public float startHealth;
-	public float currentHealth;
+	public static float startHealth;
+	public static float currentHealth;
 	public double healthPercent;
 	public Text healthText;
 	public bool isDead;
@@ -26,12 +26,13 @@ public class ShootingController : MonoBehaviour {
 	public float delayTime;
 	public Image winBackg;
 	public Text winText;
-	//public Button playAgain;
 	public Text infoText;
 	public Image infoBackg;
 
 	public void Start ()
 	{
+		startHealth = 10.0f;
+		currentHealth = 10.0f;
 		infoBackg.enabled = false;
 		infoText.text = " ";
 		winBackg.enabled = false;

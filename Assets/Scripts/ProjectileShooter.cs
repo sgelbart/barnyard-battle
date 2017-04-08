@@ -27,6 +27,7 @@ public class ProjectileShooter : MonoBehaviour {
 				{
 					Throw ();
 					carrotCount--;
+					PickUp.count = carrotCount;
 				}
 			}
 		}

@@ -14964,7 +14964,7 @@ Transform:
   m_GameObject: {fileID: 476763574}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children:
   - {fileID: 14172483}
   - {fileID: 1001907070}
@@ -19557,7 +19557,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 615026423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.75, y: 0, z: -1.75}
+  m_LocalPosition: {x: -9, y: 0, z: 12}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 476763578}
@@ -28407,7 +28407,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1006672649}
   m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
-  m_LocalPosition: {x: 0.75, y: 4, z: -6}
+  m_LocalPosition: {x: -9, y: 4, z: 9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1665950768}
@@ -33395,7 +33395,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Carrots: 0/22'
+  m_Text: 'Carrots: 0/34
+
+'
 --- !u!222 &1171484692
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -33507,7 +33509,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1173188895}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.96, y: 0, z: 1.5}
+  m_LocalPosition: {x: -6, y: 0, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1039872052}
@@ -56111,7 +56113,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400136, guid: e7207fce27b934849b3fb1c8ae1a6095, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.06
+      value: -18
       objectReference: {fileID: 0}
     - target: {fileID: 400136, guid: e7207fce27b934849b3fb1c8ae1a6095, type: 3}
       propertyPath: m_LocalPosition.y
@@ -56220,7 +56222,6 @@ MonoBehaviour:
   delayTime: 7
   infoBackg: {fileID: 628452722}
   infoText: {fileID: 1954167478}
-  farmDelayTime: 3
 --- !u!4 &1968119091 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400136, guid: e7207fce27b934849b3fb1c8ae1a6095, type: 3}
@@ -56242,8 +56243,6 @@ MonoBehaviour:
   mad: {fileID: 7400006, guid: f2c5112640b7ef44689672dec0aca705, type: 3}
   walking: {fileID: 7400014, guid: f2c5112640b7ef44689672dec0aca705, type: 3}
   die: {fileID: 7400058, guid: f2c5112640b7ef44689672dec0aca705, type: 3}
-  startHealth: 5
-  currentHealth: 0
   healthPercent: 0
   healthText: {fileID: 1185526898}
   isDead: 0
@@ -57661,7 +57660,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.75
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalPosition.y
@@ -57669,7 +57668,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalRotation.x

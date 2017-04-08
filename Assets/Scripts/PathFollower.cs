@@ -28,10 +28,11 @@ public class PathFollower : MonoBehaviour {
 	public Text infoText;
 
 	public static bool farmerDelay;
-	public float farmDelayTime;
+	public static float farmDelayTime;
 
 	void Start ()
 	{
+		farmDelayTime = 2.0f;
 		farmerDelay = true;
 		infoBackg.enabled = false;
 		infoText.text = " ";

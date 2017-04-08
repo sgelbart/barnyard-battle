@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class PlayerController : MonoBehaviour {
+public class CharacterController : MonoBehaviour {
 
 	public float speed; //can make changes in the editor!
 
@@ -24,5 +24,4 @@ public class PlayerController : MonoBehaviour {
 		rb.AddForce (movement * speed);
 
 	}
-
 }

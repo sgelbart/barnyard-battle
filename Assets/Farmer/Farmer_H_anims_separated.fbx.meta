@@ -1236,7 +1236,7 @@ ModelImporter:
       takeName: run
       firstFrame: 0
       lastFrame: 208
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -1406,7 +1406,7 @@ ModelImporter:
       takeName: walk
       firstFrame: 0
       lastFrame: 208
-      wrapMode: 0
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -5146,7 +5146,7 @@ ModelImporter:
       takeName: Death2
       firstFrame: 0
       lastFrame: 400
-      wrapMode: 0
+      wrapMode: 1
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0

@@ -24325,6 +24325,23 @@ Animation:
   m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
+--- !u!114 &849501204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 849501202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50bce6ea094d84e469391e7b3b3720be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bubbleWidth: 400
+  bubbleHeight: 100
+  offsetX: 0
+  offsetY: 125
+  mat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  guiSkin: {fileID: 11400000, guid: 82969da2b22202c47b97f022e72293e5, type: 2}
 --- !u!1 &851638791
 GameObject:
   m_ObjectHideFlags: 0
@@ -26014,6 +26031,14 @@ Prefab:
       propertyPath: m_Name
       value: carrot_single (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 167656, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
+      propertyPath: m_TagString
+      value: Super Carrot
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318158, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 120efdb5b99531a4884415fb808c88d5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
   m_IsPrefabParent: 0
@@ -34771,6 +34796,14 @@ Prefab:
       propertyPath: m_Name
       value: carrot_single (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 167656, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
+      propertyPath: m_TagString
+      value: Super Carrot
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318158, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 120efdb5b99531a4884415fb808c88d5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
   m_IsPrefabParent: 0
@@ -39071,6 +39104,14 @@ Prefab:
       propertyPath: m_Name
       value: carrot_single (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 167656, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
+      propertyPath: m_TagString
+      value: Super Carrot
+      objectReference: {fileID: 0}
+    - target: {fileID: 2318158, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 120efdb5b99531a4884415fb808c88d5, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2ba21208d903fbd4fa6909934e87707e, type: 2}
   m_IsPrefabParent: 0
@@ -55935,6 +55976,19 @@ MonoBehaviour:
   healthPercent: 0
   healthText: {fileID: 1185526898}
   isDead: 0
+  delayTime: 5
+--- !u!65 &1968119093
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1968119088}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.25, y: 3, z: 1}
+  m_Center: {x: 0, y: 1.5, z: 0}
 --- !u!1 &1970690662
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,6 +24,13 @@ public class PickUp : MonoBehaviour {
 			ProjectileShooter.carrotCount = count;
 			SetCountText ();
 		}
+		if (other.gameObject.CompareTag ("Super Carrot")) 
+		{
+			other.gameObject.SetActive (false);
+			count = count + 5;
+			ProjectileShooter.carrotCount = count;
+			SetCountText ();
+		}
 	}
 
 	void SetCountText ()

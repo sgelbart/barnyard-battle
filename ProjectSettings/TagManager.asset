@@ -7,6 +7,8 @@ TagManager:
   - Fire
   - farmer
   - Pick Up
+  - carrot
+  - Super Carrot
   layers:
   - Default
   - TransparentFX

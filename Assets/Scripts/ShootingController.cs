@@ -22,8 +22,12 @@ public class ShootingController : MonoBehaviour {
 	public Text healthText;
 	public bool isDead;
 
+	public static bool winDelay;
+	public float delayTime;
+
 	public void Start ()
 	{
+		winDelay = false;
 		isDead = false;
 		healthPercent = 100;
 		currentHealth = startHealth;
@@ -45,6 +49,16 @@ public class ShootingController : MonoBehaviour {
 			}
 			targetTime = 2.0f;
 		}
+
+		if (winDelay == true)
+		{
+			delayTime = delayTime - Time.deltaTime;
+		}
+
+		if (delayTime <= 0.0f) 
+		{
+			SceneManager.LoadScene ("character_selection");
+		}
 	}
 
 	void OnTriggerEnter (Collider other)
@@ -63,6 +77,7 @@ public class ShootingController : MonoBehaviour {
 			currentHealth--;
 			healthPercent = Math.Round (currentHealth / startHealth * 100, 0, MidpointRounding.AwayFromZero);
 		}
+
 		healthText.text = "Farmer Health: " + healthPercent + "%";
 
 		if (healthPercent <= 0) 
@@ -74,6 +89,7 @@ public class ShootingController : MonoBehaviour {
 				GetComponent<Animation> ().Play ("Death2");
 			}
 			isDead = true;
+			winDelay = true;
 		}
 
 		//makes him stop moving

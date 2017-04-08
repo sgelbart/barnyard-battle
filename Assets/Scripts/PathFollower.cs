@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 using System.Linq;
 
 public class PathFollower : MonoBehaviour {
@@ -16,10 +18,19 @@ public class PathFollower : MonoBehaviour {
 	public AnimationClip idle;
 	public AnimationClip walk;
 
+	public Image loseBackg;
+	public Text loseText;
+	public static bool sceneDelay;
+	public float delayTime;
+	//public float currentDelayTime;
+
 	void Start ()
 	{
 		walk.legacy = true;
 		GetComponent <Animation> ().Play ("walk");
+		loseText.text = " ";
+		loseBackg.enabled = false;
+		sceneDelay = false;
 	}
 
 	void Update () {
@@ -37,6 +48,26 @@ public class PathFollower : MonoBehaviour {
 			if (rightTurns.Contains(currentPoint))
 			{
 				transform.Rotate (0,90,0);
+			}
+		}
+
+		if (sceneDelay == true)
+		{
+			delayTime = delayTime - Time.deltaTime;
+		}
+
+		if (delayTime <= 0.0f)
+		{
+			SceneManager.LoadScene ("character_selection");
+		}
+
+		if (sceneDelay == false)
+		{
+			if (currentPoint == 4) 
+			{
+				loseBackg.enabled = true;
+				loseText.text = "Poor Bessie!";
+				sceneDelay = true;
 			}
 		}
 

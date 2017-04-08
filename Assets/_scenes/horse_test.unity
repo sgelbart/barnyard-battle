@@ -302,6 +302,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50bce6ea094d84e469391e7b3b3720be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bubbleWidth: 200
+  bubbleHeight: 100
+  offsetX: 0
+  offsetY: 150
+  mat: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  guiSkin: {fileID: 11400000, guid: 82969da2b22202c47b97f022e72293e5, type: 2}
 --- !u!111 &1006628111
 Animation:
   m_ObjectHideFlags: 0

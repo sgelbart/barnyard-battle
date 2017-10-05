@@ -29,8 +29,11 @@ public class PathFollower : MonoBehaviour {
 	public static bool farmerDelay;
 	public static float farmDelayTime;
 
+	public static bool farmerDead;
+
 	void Start ()
 	{
+		farmerDead = false;
 		farmDelayTime = 5.0f;
 		farmerDelay = true;
 		infoBackg.enabled = false;
@@ -43,6 +46,12 @@ public class PathFollower : MonoBehaviour {
 	}
 
 	void Update () {
+
+		if (farmerDead == true) 
+		{
+			speed = 0;
+			GetComponent <Animation> ().Stop("walk");
+		}
 
 		if (farmerDelay == true)
 		{
@@ -90,13 +99,15 @@ public class PathFollower : MonoBehaviour {
 			}
 		}
 
-		if (currentPoint >= path.Length)
+		if (farmerDead == false) 
 		{
-			currentPoint = 0;
-			speed = 0;
+			if (currentPoint >= path.Length) {
+				currentPoint = 0;
+				speed = 0;
 
-			idle.legacy = true;
-			GetComponent <Animation> ().Play ("Standby");
+				idle.legacy = true;
+				GetComponent <Animation> ().Play ("Standby");
+			}
 		}
 	}
 

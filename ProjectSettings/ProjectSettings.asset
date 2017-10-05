@@ -555,14 +555,14 @@ PlayerSettings:
   cloudServicesEnabled:
     Analytics: 0
     Build: 0
-    Collab: 0
+    Collab: 1
     ErrorHub: 0
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
     UNet: 1
     Unity_Ads: 0
-  cloudProjectId: f6c7e0c1-d157-4a0c-b799-806367eb1894
+  cloudProjectId: 4db50190-4f8e-4589-b1a3-aec23394b1c5
   projectName: barn-yard-battle
-  organizationId: sabix
+  organizationId: ineffablezoe
   cloudEnabled: 0

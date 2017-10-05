@@ -52,8 +52,11 @@ public class ShootingController : MonoBehaviour {
 
 		if (targetTime <= 0.0f) 
 		{
-			GetComponent<Animation> ().Play ("walk");
-			PathFollower.speed = 2.0f;
+			if (healthPercent > 0) 
+			{
+				GetComponent<Animation> ().Play ("walk");
+				PathFollower.speed = 2.0f;
+			}
 			timerActive = false;
 			if (healthPercent > 0)
 			{
@@ -136,6 +139,5 @@ public class ShootingController : MonoBehaviour {
 	public void PlayAgain()
 	{
 		SceneManager.LoadScene ("character_selection");
-
 	}
 }

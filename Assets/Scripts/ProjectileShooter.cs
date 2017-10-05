@@ -43,11 +43,11 @@ public class ProjectileShooter : MonoBehaviour {
 
 	}
 
-	void OnTriggerEnter (Collider other)
+	/*void OnTriggerEnter (Collider other)
 	{
 		if (other.gameObject.CompareTag ( "farmer"))
 		{
 			other.gameObject.SetActive (false);
 		}
-	}
+	}*/
 }

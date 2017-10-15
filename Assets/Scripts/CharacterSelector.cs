@@ -80,6 +80,12 @@ public class CharacterSelector : MonoBehaviour {
 	public void ConfirmButton()
 	{
 		PlayerPrefs.SetInt ("CharacterSelected", index);
+		SceneManager.LoadScene ("horse_into");
+	}
+
+	public void ConfirmButton2()
+	{
+		PlayerPrefs.SetInt ("CharacterSelected", index);
 		SceneManager.LoadScene ("main");
 	}
 

@@ -1,0 +1,48 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   23.21.13.8792
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.264 seconds
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\akame\Downloads\UnityGame-master\barnyard-battle\Game\Barnyard-Battle-7.0_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on ReturnToMainMenu
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.316464 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3df8 -> priority: 1 
+  Thread -> id: ae8 -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 4.401220 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 914.
+Total: 0.288455 ms (FindLiveObjects: 0.036831 ms CreateObjectMapping: 0.020786 ms MarkObjects: 0.187441 ms  DeleteObjects: 0.039019 ms)
+

@@ -10,9 +10,9 @@ public class MoveCamera : MonoBehaviour
 	// VARIABLES
 	//
 
-	public float turnSpeed = 4.0f;		// Speed of camera turning when mouse moves in along an axis
-	public float panSpeed = 4.0f;		// Speed of the camera when being panned
-	public float zoomSpeed = 4.0f;		// Speed of the camera going back and forth
+	public float turnSpeed = 7.0f;		// Speed of camera turning when mouse moves in along an axis
+	public float panSpeed = 7.0f;		// Speed of the camera when being panned
+	public float zoomSpeed = 7.0f;		// Speed of the camera going back and forth
 
 	private Vector3 mouseOrigin;	// Position of cursor when mouse dragging starts
 	private bool isPanning;		// Is the camera being panned?

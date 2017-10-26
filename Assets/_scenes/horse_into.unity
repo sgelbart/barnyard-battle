@@ -254,15 +254,15 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.3
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2669992e-16
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.65
+      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a85d92b72304a79449904f3b49e3d5ea, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1845,17 +1845,17 @@ RectTransform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 655725203}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.25, y: 0.33333334, z: 1}
   m_Children: []
-  m_Father: {fileID: 1505733559}
-  m_RootOrder: 3
+  m_Father: {fileID: 793272226}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 303, y: 95}
-  m_SizeDelta: {x: 275, y: 150}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -88.18599, y: -122.847916}
+  m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &655725205
 MonoBehaviour:
@@ -1878,20 +1878,20 @@ MonoBehaviour:
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 24
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 0
+    m_MinSize: 0
+    m_MaxSize: 116
+    m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\tHowdy pardner!\n\tFarmer Joe is going to kill Bessie! \n\tIt's your job
-    to knock him out before he gets to her!\n\tPick up carrots by walking through
-    them using WASD or the arrow keys. \n\tThrow the carrots by clicking while facing
+  m_Text: "\tHowdy pardner!\n\tFarmer Joe is going to kill Bessie! \n\t \t\tIt's your
+    job to knock him out before he gets to her!\n\t\tPick up carrots by walking through
+    them using WASD or the arrow keys. \n\t\tThrow the carrots by clicking while facing
     the farmer.\n\tNow git movin' youngin!"
 --- !u!222 &655725206
 CanvasRenderer:
@@ -2239,14 +2239,15 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 4, y: 3, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 655725204}
   m_Father: {fileID: 1505733559}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.59800005, y: 0.3324535}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 1.5, y: 12}
-  m_SizeDelta: {x: -306, y: -180}
+  m_AnchoredPosition: {x: 0, y: 12}
+  m_SizeDelta: {x: -300, y: -180}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &793272227
 MonoBehaviour:
@@ -3752,7 +3753,6 @@ RectTransform:
   - {fileID: 131798629}
   - {fileID: 127302897}
   - {fileID: 793272226}
-  - {fileID: 655725204}
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
